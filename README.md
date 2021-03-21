@@ -16,7 +16,7 @@ This is a REST API that powers the storage and management functionalities of the
 
 **Pre-requisites**
 
-- Have [Node](https://nodejs.org/en/) installed on your machine.
+- Have [Ruby on Rails](https://rubyonrails.org/) installed on your machine.
 
 ### Setting up instructions 
 
@@ -26,8 +26,8 @@ This is a REST API that powers the storage and management functionalities of the
 
 2. Run the following commands to start the server:
 
-- git clone git@github.com:Maryjanee/Doctors-Hub-API.git
-- cd Doctors-Hub-API
+- git clone git@github.com:Maryjanee/Doctors-hubb-api.git
+- cd Doctors-hubb-api
 - bundle install
 - rails db:create && rails db:migrate
 - rails s
