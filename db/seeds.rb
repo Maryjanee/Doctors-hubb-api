@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Layout/LineLength
 doctors = [
   {
     name: 'John Maxwell',
@@ -34,7 +35,9 @@ doctors = [
     specialization: 'Public Health',
     fees: '30000',
     email: 'annehat@gmail.com',
-    about: 'I am a Professor of Public Health Opthalmology with 38 years experience in the practice of medicine. The treatment and correction of all eyes related ailments is my specialty. My services include Medical, Surgical and Optical.',
+    about: 'I am a Professor of Public Health Opthalmology with
+    38 years experience in the practice of medicine. The
+     treatment and correction of all eyes related ailments is my specialty. My services include Medical, Surgical and Optical.',
     photo: 'https://www.nycheadshot.com/wp-content/uploads/2016/09/15-1024x960.jpg'
   },
   {
@@ -51,3 +54,5 @@ doctors = [
 doctors.each do |obj|
   Doctor.create(obj)
 end
+
+# rubocop:enable Layout/LineLength
