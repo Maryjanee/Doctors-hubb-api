@@ -1,0 +1,15 @@
+builddir="`pwd`"; cd libcharset && make all && make install-lib libdir="$builddir/lib" includedir="$builddir/lib"
+make[1]: Entering directory '/c/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/libcharset'
+if [ ! -d include ] ; then mkdir include ; fi
+cp ./include/libcharset.h.in include/libcharset.h
+cd lib && make all
+make[2]: Entering directory '/c/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/libcharset/lib'
+/bin/sh ../libtool --mode=compile x86_64-w64-mingw32-gcc -I. -I. -I.. -I./.. -I../include -O2 -U_FORTIFY_SOURCE -g -fPIC -fvisibility=hidden -Wall -DLIBDIR=\"C:/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15/lib\" -DBUILDING_LIBCHARSET -DBUILDING_DLL -DENABLE_RELOCATABLE=1 -DIN_LIBRARY -DINSTALLDIR=\"C:/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15/lib\" -DNO_XMALLOC -Dset_relocation_prefix=libcharset_set_relocation_prefix -Drelocate=libcharset_relocate -DHAVE_CONFIG_H -c ./localcharset.c
+libtool: compile:  x86_64-w64-mingw32-gcc -I. -I. -I.. -I./.. -I../include -O2 -U_FORTIFY_SOURCE -g -fPIC -fvisibility=hidden -Wall -DLIBDIR=\"C:/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15/lib\" -DBUILDING_LIBCHARSET -DBUILDING_DLL -DENABLE_RELOCATABLE=1 -DIN_LIBRARY -DINSTALLDIR=\"C:/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15/lib\" -DNO_XMALLOC -Dset_relocation_prefix=libcharset_set_relocation_prefix -Drelocate=libcharset_relocate -DHAVE_CONFIG_H -c ./localcharset.c -o localcharset.o
+x86_64-w64-mingw32-gcc.exe: error: work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15/lib": No such file or directory
+x86_64-w64-mingw32-gcc.exe: error: work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15/lib": No such file or directory
+make[2]: *** [Makefile:62: localcharset.lo] Error 1
+make[2]: Leaving directory '/c/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/libcharset/lib'
+make[1]: *** [Makefile:34: all] Error 2
+make[1]: Leaving directory '/c/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/libcharset'
+make: *** [Makefile:42: lib/localcharset.h] Error 2

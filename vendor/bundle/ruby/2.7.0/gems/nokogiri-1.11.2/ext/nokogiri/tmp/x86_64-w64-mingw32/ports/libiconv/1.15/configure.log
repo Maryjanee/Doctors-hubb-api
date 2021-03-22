@@ -1,0 +1,620 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for x86_64-w64-mingw32-strip... no
+checking for strip... strip
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for x86_64-w64-mingw32-gcc... x86_64-w64-mingw32-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.exe
+checking for suffix of executables... .exe
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-w64-mingw32-gcc accepts -g... yes
+checking for x86_64-w64-mingw32-gcc option to accept ISO C89... none needed
+checking whether x86_64-w64-mingw32-gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of x86_64-w64-mingw32-gcc... none
+checking how to run the C preprocessor... x86_64-w64-mingw32-gcc -E
+checking for strip... /mingw64/bin/strip
+checking build system type... x86_64-pc-mingw64
+checking host system type... x86_64-w64-mingw32
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for Minix Amsterdam compiler... no
+checking for x86_64-w64-mingw32-ar... no
+checking for x86_64-w64-mingw32-lib... no
+checking for x86_64-w64-mingw32-link... no
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for x86_64-w64-mingw32-ar... ar
+checking for x86_64-w64-mingw32-ranlib... no
+checking for ranlib... ranlib
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for ld used by x86_64-w64-mingw32-gcc... C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe
+checking if the linker (C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe) is GNU ld... yes
+checking for shared library path variable... PATH
+checking whether to activate relocatable installation... no
+checking how to copy files... cp -p
+checking how to make hard links... ln
+checking whether ln -s works... no, using cp -pR
+configure: WARNING: Libtool does not cope well with whitespace in `pwd`
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-w64-mingw32-gcc... C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe
+checking if the linker (C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... no
+checking for x86_64-w64-mingw32-dumpbin... no
+checking for x86_64-w64-mingw32-link... no
+checking for dumpbin... no
+checking for link... link -dump
+checking the name lister (nm) interface... BSD nm
+checking the maximum length of command line arguments... 8192
+checking how to convert x86_64-pc-mingw64 file names to x86_64-w64-mingw32 format... func_convert_file_msys_to_w32
+checking how to convert x86_64-pc-mingw64 file names to toolchain format... func_convert_file_msys_to_w32
+checking for C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe option to reload object files... -r
+checking for x86_64-w64-mingw32-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... file_magic ^x86 archive import|^x86 DLL
+checking for x86_64-w64-mingw32-dlltool... no
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... func_cygming_dll_for_implib
+checking for x86_64-w64-mingw32-ar... (cached) ar
+checking for archiver @FILE support... @
+checking for x86_64-w64-mingw32-strip... /mingw64/bin/strip
+checking for x86_64-w64-mingw32-ranlib... ranlib
+checking command to parse nm output from x86_64-w64-mingw32-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-w64-mingw32-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... no
+checking for x86_64-w64-mingw32-as... no
+checking for as... as
+checking for x86_64-w64-mingw32-dlltool... dlltool
+checking for x86_64-w64-mingw32-objdump... objdump
+checking for objdir... .libs
+checking if x86_64-w64-mingw32-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-w64-mingw32-gcc option to produce PIC... -DDLL_EXPORT -DPIC
+checking if x86_64-w64-mingw32-gcc PIC flag -DDLL_EXPORT -DPIC works... yes
+checking if x86_64-w64-mingw32-gcc static flag -static works... yes
+checking if x86_64-w64-mingw32-gcc supports -c -o file.o... yes
+checking if x86_64-w64-mingw32-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-w64-mingw32-gcc linker (C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe) supports shared libraries... yes
+checking dynamic linker characteristics... Win32 ld.exe
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for x86_64-w64-mingw32-windres... no
+checking for windres... windres
+checking for x86_64-w64-mingw32-windres... no
+checking for windres... windres
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for shared library run path origin... done
+checking for iconv... yes
+checking for working iconv... yes
+checking how to link with libiconv... -liconv
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking whether NLS is requested... yes
+checking for msgfmt... /mingw64/bin/msgfmt
+checking for gmsgfmt... /mingw64/bin/msgfmt
+checking for xgettext... /mingw64/bin/xgettext
+checking for msgmerge... /mingw64/bin/msgmerge
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... no
+checking for iconv... (cached) yes
+checking for working iconv... (cached) yes
+checking how to link with libiconv... -liconv
+checking for GNU gettext in libintl... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... external libintl
+checking how to link with libintl... -lintl
+checking for mbstate_t... yes
+checking for wchar_t... yes
+checking for getc_unlocked... no
+checking for mbrtowc... yes
+checking for wcrtomb... yes
+checking for mbsinit... yes
+checking for setlocale... yes
+checking whether <wchar.h> is standalone... yes
+checking for memmove... yes
+checking for nl_langinfo and CODESET... no
+checking for unistd.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for sys/param.h... yes
+checking for sys/time.h... yes
+checking for sys/socket.h... no
+checking for limits.h... yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for symlink... no
+checking for canonicalize_file_name... no
+checking for getcwd... yes
+checking for readlink... no
+checking for realpath... no
+checking for readlinkat... no
+checking for getprogname... no
+checking for getexecname... no
+checking for gettimeofday... yes
+checking for lstat... no
+checking for _set_invalid_parameter_handler... yes
+checking for setenv... no
+checking for working fcntl.h... no
+checking for wchar.h... (cached) yes
+checking for EILSEQ... yes
+checking byte ordering... little endian
+checking for size_t... yes
+checking for working alloca.h... no
+checking for alloca... yes
+checking whether // is distinct from /... yes
+checking whether realpath works... no
+checking if environ is properly declared... yes
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking for complete errno.h... no
+checking for EMULTIHOP value... no
+checking for ENOLINK value... yes
+checking for EOVERFLOW value... yes
+checking whether strerror_r is declared... no
+checking for strerror_r... no
+checking whether strerror_r returns char *... no
+checking for pid_t... yes
+checking for mode_t... yes
+checking for C/C++ restrict keyword... __restrict
+checking winsock2.h usability... yes
+checking winsock2.h presence... yes
+checking for winsock2.h... yes
+checking for struct timeval... yes
+checking for wide-enough struct timeval.tv_sec member... no
+checking whether gettimeofday is declared without a macro... yes
+checking for 64-bit off_t... yes
+checking whether limits.h has ULLONG_WIDTH etc.... yes
+checking whether lstat correctly handles trailing slash... no
+checking whether malloc, realloc, calloc are POSIX compliant... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking for sigset_t... no
+checking for SIGPIPE... no
+checking whether setenv is declared... no
+checking for ssize_t... yes
+checking for uid_t in sys/types.h... no
+checking whether C symbols are prefixed with underscore at the linker level... no
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for wint_t... yes
+checking whether wint_t is too small... yes
+checking whether stdint.h conforms to C99... yes
+checking whether stdint.h predates C++11... no
+checking whether stdint.h has UINTMAX_WIDTH etc.... no
+checking whether strerror(0) succeeds... yes
+checking whether ffsl is declared without a macro... no
+checking whether ffsll is declared without a macro... no
+checking whether memmem is declared without a macro... no
+checking whether mempcpy is declared without a macro... yes
+checking whether memrchr is declared without a macro... no
+checking whether rawmemchr is declared without a macro... no
+checking whether stpcpy is declared without a macro... no
+checking whether stpncpy is declared without a macro... no
+checking whether strchrnul is declared without a macro... no
+checking whether strdup is declared without a macro... yes
+checking whether strncat is declared without a macro... yes
+checking whether strndup is declared without a macro... no
+checking whether strnlen is declared without a macro... yes
+checking whether strpbrk is declared without a macro... yes
+checking whether strsep is declared without a macro... no
+checking whether strcasestr is declared without a macro... no
+checking whether strtok_r is declared without a macro... yes
+checking whether strerror_r is declared without a macro... no
+checking whether strsignal is declared without a macro... no
+checking whether strverscmp is declared without a macro... no
+checking whether stat file-mode macros are broken... no
+checking for struct timespec in <time.h>... yes
+checking whether clearerr_unlocked is declared... no
+checking whether feof_unlocked is declared... no
+checking whether ferror_unlocked is declared... no
+checking whether fflush_unlocked is declared... no
+checking whether fgets_unlocked is declared... no
+checking whether fputc_unlocked is declared... no
+checking whether fputs_unlocked is declared... no
+checking whether fread_unlocked is declared... no
+checking whether fwrite_unlocked is declared... no
+checking whether getc_unlocked is declared... no
+checking whether getchar_unlocked is declared... no
+checking whether putc_unlocked is declared... no
+checking whether putchar_unlocked is declared... no
+checking whether // is distinct from /... (cached) yes
+checking for error_at_line... no
+checking whether fcntl is declared without a macro... no
+checking whether openat is declared without a macro... no
+checking whether program_invocation_name is declared... no
+checking whether program_invocation_short_name is declared... no
+checking whether __argv is declared... yes
+checking whether gettimeofday clobbers localtime buffer... no
+checking for gettimeofday with POSIX signature... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking for _ftime... yes
+checking for mbstate_t... (cached) yes
+checking whether program_invocation_name is declared... (cached) no
+checking whether program_invocation_short_name is declared... (cached) no
+checking for raise... yes
+checking search.h usability... yes
+checking search.h presence... yes
+checking for search.h... yes
+checking for tsearch... yes
+checking for volatile sig_atomic_t... yes
+checking for sighandler_t... no
+checking whether pthread_sigmask is declared without a macro... no
+checking whether sigaction is declared without a macro... no
+checking whether sigaddset is declared without a macro... no
+checking whether sigdelset is declared without a macro... no
+checking whether sigemptyset is declared without a macro... no
+checking whether sigfillset is declared without a macro... no
+checking whether sigismember is declared without a macro... no
+checking whether sigpending is declared without a macro... no
+checking whether sigprocmask is declared without a macro... no
+checking for ssize_t... (cached) yes
+checking whether stat handles trailing slashes on directories... no
+checking whether stat handles trailing slashes on files... yes
+checking for max_align_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking which flavor of printf attribute matches inttypes macros... gnu
+checking whether dprintf is declared without a macro... no
+checking whether fpurge is declared without a macro... no
+checking whether fseeko is declared without a macro... yes
+checking whether ftello is declared without a macro... yes
+checking whether getdelim is declared without a macro... no
+checking whether getline is declared without a macro... no
+checking whether gets is declared without a macro... yes
+checking whether pclose is declared without a macro... no
+checking whether popen is declared without a macro... no
+checking whether renameat is declared without a macro... no
+checking whether snprintf is declared without a macro... yes
+checking whether tmpfile is declared without a macro... yes
+checking whether vdprintf is declared without a macro... no
+checking whether vsnprintf is declared without a macro... yes
+checking whether _Exit is declared without a macro... yes
+checking whether atoll is declared without a macro... yes
+checking whether canonicalize_file_name is declared without a macro... no
+checking whether getloadavg is declared without a macro... no
+checking whether getsubopt is declared without a macro... no
+checking whether grantpt is declared without a macro... no
+checking whether initstate is declared without a macro... no
+checking whether initstate_r is declared without a macro... no
+checking whether mkdtemp is declared without a macro... no
+checking whether mkostemp is declared without a macro... no
+checking whether mkostemps is declared without a macro... no
+checking whether mkstemp is declared without a macro... yes
+checking whether mkstemps is declared without a macro... no
+checking whether posix_openpt is declared without a macro... no
+checking whether ptsname is declared without a macro... no
+checking whether ptsname_r is declared without a macro... no
+checking whether qsort_r is declared without a macro... no
+checking whether random is declared without a macro... no
+checking whether random_r is declared without a macro... no
+checking whether realpath is declared without a macro... no
+checking whether rpmatch is declared without a macro... no
+checking whether secure_getenv is declared without a macro... no
+checking whether setenv is declared without a macro... no
+checking whether setstate is declared without a macro... no
+checking whether setstate_r is declared without a macro... no
+checking whether srandom is declared without a macro... no
+checking whether srandom_r is declared without a macro... no
+checking whether strtod is declared without a macro... yes
+checking whether strtoll is declared without a macro... yes
+checking whether strtoull is declared without a macro... yes
+checking whether unlockpt is declared without a macro... no
+checking whether unsetenv is declared without a macro... no
+checking for winsock2.h... (cached) yes
+checking for nlink_t... no
+checking whether fchmodat is declared without a macro... no
+checking whether fstat is declared without a macro... yes
+checking whether fstatat is declared without a macro... no
+checking whether futimens is declared without a macro... no
+checking whether lchmod is declared without a macro... no
+checking whether lstat is declared without a macro... no
+checking whether mkdirat is declared without a macro... no
+checking whether mkfifo is declared without a macro... no
+checking whether mkfifoat is declared without a macro... no
+checking whether mknod is declared without a macro... no
+checking whether mknodat is declared without a macro... no
+checking whether stat is declared without a macro... yes
+checking whether utimensat is declared without a macro... no
+checking whether chdir is declared without a macro... yes
+checking whether chown is declared without a macro... no
+checking whether dup is declared without a macro... yes
+checking whether dup2 is declared without a macro... yes
+checking whether dup3 is declared without a macro... no
+checking whether environ is declared without a macro... no
+checking whether euidaccess is declared without a macro... no
+checking whether faccessat is declared without a macro... no
+checking whether fchdir is declared without a macro... no
+checking whether fchownat is declared without a macro... no
+checking whether fdatasync is declared without a macro... no
+checking whether fsync is declared without a macro... no
+checking whether ftruncate is declared without a macro... yes
+checking whether getcwd is declared without a macro... yes
+checking whether getdomainname is declared without a macro... no
+checking whether getdtablesize is declared without a macro... no
+checking whether getgroups is declared without a macro... no
+checking whether gethostname is declared without a macro... no
+checking whether getlogin is declared without a macro... no
+checking whether getlogin_r is declared without a macro... no
+checking whether getpagesize is declared without a macro... no
+checking whether getusershell is declared without a macro... no
+checking whether setusershell is declared without a macro... no
+checking whether endusershell is declared without a macro... no
+checking whether group_member is declared without a macro... no
+checking whether isatty is declared without a macro... yes
+checking whether lchown is declared without a macro... no
+checking whether link is declared without a macro... no
+checking whether linkat is declared without a macro... no
+checking whether lseek is declared without a macro... yes
+checking whether pipe is declared without a macro... no
+checking whether pipe2 is declared without a macro... no
+checking whether pread is declared without a macro... no
+checking whether pwrite is declared without a macro... no
+checking whether readlink is declared without a macro... no
+checking whether readlinkat is declared without a macro... no
+checking whether rmdir is declared without a macro... yes
+checking whether sethostname is declared without a macro... no
+checking whether sleep is declared without a macro... yes
+checking whether symlink is declared without a macro... no
+checking whether symlinkat is declared without a macro... no
+checking whether ttyname_r is declared without a macro... no
+checking whether unlink is declared without a macro... yes
+checking whether unlinkat is declared without a macro... no
+checking whether usleep is declared without a macro... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating srclib/Makefile
+config.status: creating src/Makefile
+config.status: creating po/Makefile.in
+config.status: creating man/Makefile
+config.status: creating tests/Makefile
+config.status: creating include/iconv.h
+config.status: creating include/iconv.h.inst
+config.status: creating config.h
+config.status: creating lib/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+=== configuring in libcharset (/c/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/libcharset)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=C:/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15'  '--host=x86_64-w64-mingw32' '--libdir=C:/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15/lib' '--disable-shared' '--enable-static' 'CPPFLAGS=-Wall' 'CFLAGS=-O2 -U_FORTIFY_SOURCE -g -fPIC' 'CXXFLAGS=-O2 -U_FORTIFY_SOURCE -g' 'LDFLAGS=' 'host_alias=x86_64-w64-mingw32' 'CC=x86_64-w64-mingw32-gcc' --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for x86_64-w64-mingw32-gcc... x86_64-w64-mingw32-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.exe
+checking for suffix of executables... .exe
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-w64-mingw32-gcc accepts -g... yes
+checking for x86_64-w64-mingw32-gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... x86_64-w64-mingw32-gcc -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking build system type... x86_64-pc-mingw64
+checking host system type... x86_64-w64-mingw32
+checking whether to activate relocatable installation... no
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+configure: WARNING: Libtool does not cope well with whitespace in `pwd`
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-w64-mingw32-gcc... C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe
+checking if the linker (C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... no
+checking for x86_64-w64-mingw32-dumpbin... no
+checking for x86_64-w64-mingw32-link... no
+checking for dumpbin... no
+checking for link... link -dump
+checking the name lister (nm) interface... BSD nm
+checking whether ln -s works... no, using cp -pR
+checking the maximum length of command line arguments... 8192
+checking how to convert x86_64-pc-mingw64 file names to x86_64-w64-mingw32 format... func_convert_file_msys_to_w32
+checking how to convert x86_64-pc-mingw64 file names to toolchain format... func_convert_file_msys_to_w32
+checking for C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe option to reload object files... -r
+checking for x86_64-w64-mingw32-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... file_magic ^x86 archive import|^x86 DLL
+checking for x86_64-w64-mingw32-dlltool... no
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... func_cygming_dll_for_implib
+checking for x86_64-w64-mingw32-ar... no
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-w64-mingw32-strip... no
+checking for strip... strip
+checking for x86_64-w64-mingw32-ranlib... no
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse nm output from x86_64-w64-mingw32-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-w64-mingw32-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... no
+checking for x86_64-w64-mingw32-as... no
+checking for as... as
+checking for x86_64-w64-mingw32-dlltool... dlltool
+checking for x86_64-w64-mingw32-objdump... objdump
+checking for objdir... .libs
+checking if x86_64-w64-mingw32-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-w64-mingw32-gcc option to produce PIC... -DDLL_EXPORT -DPIC
+checking if x86_64-w64-mingw32-gcc PIC flag -DDLL_EXPORT -DPIC works... yes
+checking if x86_64-w64-mingw32-gcc static flag -static works... yes
+checking if x86_64-w64-mingw32-gcc supports -c -o file.o... yes
+checking if x86_64-w64-mingw32-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-w64-mingw32-gcc linker (C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe) supports shared libraries... yes
+checking dynamic linker characteristics... Win32 ld.exe
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for nl_langinfo and CODESET... no
+checking for unistd.h... (cached) yes
+checking for symlink... no
+checking for working fcntl.h... no
+checking whether we are using the GNU C Library >= 2.1 or uClibc... no
+checking for setlocale... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating include/localcharset.h
+config.status: creating include/localcharset.h.inst
+config.status: creating config.h
+config.status: executing libtool commands
+=== configuring in preload (/c/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/preload)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=C:/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15'  '--host=x86_64-w64-mingw32' '--libdir=C:/Users/Stephanie/Desktop/microverse work/doctors-hubb-api/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.11.2/ports/x86_64-w64-mingw32/libiconv/1.15/lib' '--disable-shared' '--enable-static' 'CPPFLAGS=-Wall' 'CFLAGS=-O2 -U_FORTIFY_SOURCE -g -fPIC' 'CXXFLAGS=-O2 -U_FORTIFY_SOURCE -g' 'LDFLAGS=' 'host_alias=x86_64-w64-mingw32' 'CC=x86_64-w64-mingw32-gcc' --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for x86_64-w64-mingw32-gcc... x86_64-w64-mingw32-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.exe
+checking for suffix of executables... .exe
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-w64-mingw32-gcc accepts -g... yes
+checking for x86_64-w64-mingw32-gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... x86_64-w64-mingw32-gcc -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking build system type... x86_64-pc-mingw64
+checking host system type... x86_64-w64-mingw32
+checking whether to activate relocatable installation... no
+checking whether ln -s works... no, using cp -pR
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+configure: WARNING: Libtool does not cope well with whitespace in `pwd`
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-w64-mingw32-gcc... C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe
+checking if the linker (C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... no
+checking for x86_64-w64-mingw32-dumpbin... no
+checking for x86_64-w64-mingw32-link... no
+checking for dumpbin... no
+checking for link... link -dump
+checking the name lister (nm) interface... BSD nm
+checking the maximum length of command line arguments... 8192
+checking how to convert x86_64-pc-mingw64 file names to x86_64-w64-mingw32 format... func_convert_file_msys_to_w32
+checking how to convert x86_64-pc-mingw64 file names to toolchain format... func_convert_file_msys_to_w32
+checking for C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe option to reload object files... -r
+checking for x86_64-w64-mingw32-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... file_magic ^x86 archive import|^x86 DLL
+checking for x86_64-w64-mingw32-dlltool... no
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... func_cygming_dll_for_implib
+checking for x86_64-w64-mingw32-ar... no
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-w64-mingw32-strip... no
+checking for strip... strip
+checking for x86_64-w64-mingw32-ranlib... no
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse nm output from x86_64-w64-mingw32-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-w64-mingw32-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... no
+checking for x86_64-w64-mingw32-as... no
+checking for as... as
+checking for x86_64-w64-mingw32-dlltool... dlltool
+checking for x86_64-w64-mingw32-objdump... objdump
+checking for objdir... .libs
+checking if x86_64-w64-mingw32-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-w64-mingw32-gcc option to produce PIC... -DDLL_EXPORT -DPIC
+checking if x86_64-w64-mingw32-gcc PIC flag -DDLL_EXPORT -DPIC works... yes
+checking if x86_64-w64-mingw32-gcc static flag -static works... yes
+checking if x86_64-w64-mingw32-gcc supports -c -o file.o... yes
+checking if x86_64-w64-mingw32-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-w64-mingw32-gcc linker (C:/Ruby/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
+checking dynamic linker characteristics... Win32 ld.exe
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: executing libtool commands
