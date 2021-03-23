@@ -1,8 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Metrics/MethodLength
-# rubocop:disable Style/Documentation
-
 class Api
   class V1
     class TokensController < ApplicationController
@@ -23,6 +18,3 @@ class Api
     end
   end
 end
-
-# rubocop:enable Metrics/MethodLength
-# rubocop:enable Style/Documentation

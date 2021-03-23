@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # appointment
 class Appointment < ApplicationRecord
   belongs_to :user

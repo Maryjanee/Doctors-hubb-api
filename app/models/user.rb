@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # user
 class User < ApplicationRecord
   has_secure_password

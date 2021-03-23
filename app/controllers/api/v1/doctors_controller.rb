@@ -1,8 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Style/Documentation
-# rubocop:disable Layout/LineLength
-
 class Api
   class V1
     class DoctorsController < ApplicationController
@@ -44,5 +39,3 @@ class Api
     end
   end
 end
-# rubocop:enable Style/Documentation
-# rubocop:enable Layout/LineLength

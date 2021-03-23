@@ -1,7 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Layout/LineLength
-# rubocop:disable Style/Documentation
 class Api
   class V1
     class AppointmentsController < ApplicationController
@@ -42,6 +38,3 @@ class Api
     end
   end
 end
-
-# rubocop:enable Layout/LineLength
-# rubocop:enable Style/Documentation
