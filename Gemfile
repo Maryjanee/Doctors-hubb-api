@@ -32,6 +32,8 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'rspec-rails'
   gem 'rubocop', '~>0.81.0'
+  gem 'factory_girl_rails'
+  gem 'capybara'
 end
 
 group :development do
