@@ -24,7 +24,7 @@ Bundler.require(*Rails.groups)
 module DoctorsHubApi
   # applcation
   class Application < Rails::Application
-    config.load_defaults 6.1
+    config.load_defaults 6.0
     config.eager_load_paths << Rails.root.join('lib')
     config.autoloader = :classic
     config.api_only = true

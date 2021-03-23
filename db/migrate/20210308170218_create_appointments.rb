@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # createappointment
-class CreateAppointments < ActiveRecord::Migration[6.1]
+class CreateAppointments < ActiveRecord::Migration[6.0]
   def change
     create_table :appointments do |t|
       add_reference :users, foreign_key: true
