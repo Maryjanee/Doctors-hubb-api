@@ -1,7 +1,4 @@
-class Api
-  class V1
-    # Users
-    class UsersController < ApplicationController
+class Api::V1::UsersController < ApplicationController
       before_action :current_user
       before_action :set_user, only: %i[show update destroy]
       before_action :check_owner, only: %i[update destroy]
@@ -46,6 +43,4 @@ class Api
       def user_params
         params.permit(:username, :email, :password)
       end
-    end
-  end
 end

@@ -1,8 +1,5 @@
-class Api
-  class V1
-    class DoctorsController < ApplicationController
+class Api::V1::DoctorsController < ApplicationController
       before_action :current_user
-
       def index
         @doctors = Doctor.all
         if @doctors
@@ -36,6 +33,4 @@ class Api
       def doctor_params
         params.permit(:name, :about, :specialization, :location, :fees, :email, :photo)
       end
-    end
-  end
 end

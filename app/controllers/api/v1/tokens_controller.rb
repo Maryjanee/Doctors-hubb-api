@@ -1,6 +1,4 @@
-class Api
-  class V1
-    class TokensController < ApplicationController
+class Api::V1::TokensController < ApplicationController
       def create
         @user = User.find_by_email(params[:email])
         if @user &.authenticate(params[:password])
@@ -15,6 +13,4 @@ class Api
                  status: :unauthorized
         end
       end
-    end
-  end
 end

@@ -1,6 +1,4 @@
-class Api
-  class V1
-    class AppointmentsController < ApplicationController
+class Api::V1::AppointmentsController < ApplicationController
       before_action :current_user
 
       def create
@@ -35,6 +33,4 @@ class Api
       def appointment_params
         params.require(:appointment).permit(:doctor_id, :doctor_name, :date, :city)
       end
-    end
-  end
 end
