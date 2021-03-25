@@ -15,7 +15,7 @@ RSpec.describe 'doctors', type: :request do
               { doctor_name: 'May Jones',
                 date: '2021-02-26', city: 'New York',
                 doctor_id: 2 } }
-      end .to change(Appointment, :count).by(+1)
+      end.to change(Appointment, :count).by(+1)
       expect(response).to have_http_status :created
     end
   end
