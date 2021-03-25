@@ -21,7 +21,7 @@ RSpec.describe 'Users', type: 'request' do
         post '/api/v1/users', params: { username: 'Maryjane',
                                         email: 'maryjane.com',
                                         password: '123password' }
-      end .to change(User, :count).by(0)
+      end.to change(User, :count).by(0)
     end
   end
 end
